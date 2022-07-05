@@ -41,6 +41,9 @@ public class MyLinkedList {
     }
 
     //Не доделано!!
+
+
+
     public void addFirst(int value){
         Node temp = new Node(value);
         temp.setNext(head);
