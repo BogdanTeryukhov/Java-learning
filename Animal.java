@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-abstract class Animal {
+class Animal {
     private int age;
     private String name;
 

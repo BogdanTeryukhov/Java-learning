@@ -19,6 +19,7 @@ public class FileTesting {
         while (bufferedReader.ready()){
             System.out.println(bufferedReader.readLine());
         }
+
     }
 
 }
