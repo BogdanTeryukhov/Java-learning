@@ -3,11 +3,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 class Person{
     String name;
     int age;
-    public Person(int age, String name){
+    private Person(int age, String name){
         setName(name);
         setAge(age);
     }
@@ -38,6 +41,7 @@ class Person{
 }
 
 public class TestReflectionApi {
+    
     public static void main(String[] args) {
         Class personClass = Person.class;
 
